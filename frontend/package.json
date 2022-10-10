@@ -144,10 +144,12 @@
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
+    "@babel/plugin-proposal-throw-expressions": "7.18.6",
     "@eeacms/volto-accordion-block": "*",
     "@eeacms/volto-matomo": "*",
     "@kitconcept/volto-blocks-grid": "*",
     "@kitconcept/volto-slider-block": "*",
+    "@loadable/babel-plugin": "5.13.2",
     "@plone-collective/volto-authomatic": "*",
     "@plone/volto": "16.0.0-alpha.42",
     "jest-css-modules": "2.1.0",
