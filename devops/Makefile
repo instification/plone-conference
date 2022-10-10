@@ -97,6 +97,7 @@ provision: bin/ansible ## Provision Vagrant box
 	ssh-keyscan -p 2222 -H 127.0.0.1 >> ~/.ssh/known_hosts; \
 	fi
 
+
 .PHONY: run-playbook
 run-playbook: bin/ansible ## Run playbook
 	@echo "$(GREEN)==> Apply playbook in $(DEPLOY_ENV) $(RESET)"
