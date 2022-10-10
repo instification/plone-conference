@@ -151,10 +151,7 @@
     "@kitconcept/volto-slider-block": "*",
     "@loadable/babel-plugin": "5.13.2",
     "@plone-collective/volto-authomatic": "*",
-    "@plone/volto": "16.0.0-alpha.42",
-    "jest-css-modules": "2.1.0",
-    "jest-environment-jsdom": "29.1.2",
-    "jest-environment-jsdom-sixteen": "2.0.0"
+    "@plone/volto": "16.0.0-alpha.42"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
@@ -170,6 +167,9 @@
     "stylelint": "14.0.1",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
-    "stylelint-prettier": "1.1.2"
+    "stylelint-prettier": "1.1.2",
+    "jest-css-modules": "2.1.0",
+    "jest-environment-jsdom": "29.1.2",
+    "jest-environment-jsdom-sixteen": "2.0.0"
   }
 }
